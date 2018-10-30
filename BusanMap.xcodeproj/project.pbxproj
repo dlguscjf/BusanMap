@@ -12,6 +12,8 @@
 		0C2FFA462188185600D71BF8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C2FFA442188185600D71BF8 /* Main.storyboard */; };
 		0C2FFA482188185800D71BF8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C2FFA472188185800D71BF8 /* Assets.xcassets */; };
 		0C2FFA4B2188185800D71BF8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C2FFA492188185800D71BF8 /* LaunchScreen.storyboard */; };
+		0C2FFA542188195200D71BF8 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C2FFA532188195200D71BF8 /* MapKit.framework */; };
+		0C2FFA56218821B300D71BF8 /* BusanData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C2FFA55218821B300D71BF8 /* BusanData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		0C2FFA472188185800D71BF8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0C2FFA4A2188185800D71BF8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0C2FFA4C2188185800D71BF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0C2FFA532188195200D71BF8 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		0C2FFA55218821B300D71BF8 /* BusanData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusanData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +33,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0C2FFA542188195200D71BF8 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +45,7 @@
 			children = (
 				0C2FFA3F2188185600D71BF8 /* BusanMap */,
 				0C2FFA3E2188185600D71BF8 /* Products */,
+				0C2FFA522188195100D71BF8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,8 +66,17 @@
 				0C2FFA472188185800D71BF8 /* Assets.xcassets */,
 				0C2FFA492188185800D71BF8 /* LaunchScreen.storyboard */,
 				0C2FFA4C2188185800D71BF8 /* Info.plist */,
+				0C2FFA55218821B300D71BF8 /* BusanData.swift */,
 			);
 			path = BusanMap;
+			sourceTree = "<group>";
+		};
+		0C2FFA522188195100D71BF8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0C2FFA532188195200D71BF8 /* MapKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,6 +151,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0C2FFA432188185600D71BF8 /* ViewController.swift in Sources */,
+				0C2FFA56218821B300D71BF8 /* BusanData.swift in Sources */,
 				0C2FFA412188185600D71BF8 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
